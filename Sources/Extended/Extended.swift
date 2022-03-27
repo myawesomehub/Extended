@@ -14,7 +14,7 @@ public extension String {
 }
 
 public extension Color {
-    func randomColor: Color {
+    func randomColor() -> Color {
         let colors: [Color] = [.red, .yellow, .blue, .green, .orange, .pink]
         return colors.randomElement() ?? .clear
     }

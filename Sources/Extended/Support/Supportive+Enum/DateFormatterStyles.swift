@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-public enum DateFormatterStyles {
+internal enum DateFormatterStyles {
     case date(DateStyle)
     case time(TimeStyle)
     case dateTime(DateTimeStyle)
     
-    public enum DateStyle {
+    internal enum DateStyle {
         case short
         case medium
         case long
@@ -21,14 +21,14 @@ public enum DateFormatterStyles {
         case close
     }
     
-    public enum TimeStyle {
+    internal enum TimeStyle {
         case short
         case medium
         case long
         case full
     }
     
-    public enum DateTimeStyle {
+    internal enum DateTimeStyle {
         case short
     }
 }

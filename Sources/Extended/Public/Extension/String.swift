@@ -15,7 +15,7 @@ public extension String {
 }
 
 public extension String {
-    static func formattedAs(style: DateFormatterStyles, for date: Date) -> String {
+    internal static func formattedAs(style: DateFormatterStyles, for date: Date) -> String {
         let formatter = DateFormatter()
         
         switch style {

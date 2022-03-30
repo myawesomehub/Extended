@@ -15,7 +15,7 @@ public extension String {
 }
 
 public extension String {
-    internal static func formattedAs(style: DateFormatterStyles, for date: Date) -> String {
+    static func formattedAs(style: ExtendedHelper.DateFormatterStyles, for date: Date) -> String {
         let formatter = DateFormatter()
         
         switch style {
@@ -30,9 +30,9 @@ public extension String {
             case .full:
                 formatter.dateFormat = "EEEE, MMMM d, yyyy"
             case .half:
-                return ordinalConverter(date: date, formatter: "MMM, yyyy")
+                return ExtendedHelper.ordinalConverter(date: date, formatter: "MMM, yyyy")
             case .close:
-                return ordinalConverter(date: date, formatter: "MMM")
+                return ExtendedHelper.ordinalConverter(date: date, formatter: "MMM")
             }
         case .time(let timeStyle):
             switch timeStyle {

@@ -1,13 +1,43 @@
 //
-//  Supportive+String.swift
+//  File.swift
 //  
 //
-//  Created by Mohammad Yasir on 28/03/22.
+//  Created by Mohammad Yasir on 30/03/22.
 //
 
 import SwiftUI
 
-public extension String {
+public struct ExtendedHelper { }
+
+extension ExtendedHelper {
+    public enum DateFormatterStyles {
+        case date(DateStyle)
+        case time(TimeStyle)
+        case dateTime(DateTimeStyle)
+        
+        public enum DateStyle {
+            case short
+            case medium
+            case long
+            case full
+            case half
+            case close
+        }
+        
+        public enum TimeStyle {
+            case short
+            case medium
+            case long
+            case full
+        }
+        
+        public enum DateTimeStyle {
+            case short
+        }
+    }
+}
+
+extension ExtendedHelper {
     static func ordinalConverter(date : Date, formatter: String) -> String {
         let calendar = Calendar.current
         let anchorComponents = calendar.dateComponents([.day, .month, .year], from: date)

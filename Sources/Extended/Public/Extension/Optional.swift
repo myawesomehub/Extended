@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension Optional {
+public extension Optional {
     func safely(action: (Wrapped) -> Void) -> Void {
         if let safeValue = self {
             action(safeValue)

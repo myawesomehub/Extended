@@ -4,7 +4,7 @@
 
 # Features
 
-| Types        |  Extended Methods                                   |
+| Type         |  Extended Methods                                   |
 | -------------| --------------------------------------------------- |
 | `Strings`    | `.randomString()` `.dateFormattedAs()`                 |
 | `Color`      | `.randomColor()` `.hexColor()`                      |

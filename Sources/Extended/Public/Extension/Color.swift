@@ -15,6 +15,12 @@ public extension Color {
 }
 
 public extension Color {
+    static func assetColor(_ name: String) -> Color {
+        return Color(UIColor(named: name) ?? .clear)
+    }
+}
+
+public extension Color {
     static func hexValue(_ hex: String) -> Color {
         let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
         var int: UInt64 = 0

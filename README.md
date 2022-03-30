@@ -6,5 +6,5 @@
 
 | Type         |  Extended Methods                                   |
 | -------------| --------------------------------------------------- |
-| `Strings`    | `.randomString()` `.dateFormattedAs()`                 |
-| `Color`      | `.randomColor()` `.hexColor()`                      |
+| `Strings`    | `.randomString()` `.dateFormattedAs()`              |
+| `Color`      | `.randomColor()` `.hexColor()` `.assetColor()`      |

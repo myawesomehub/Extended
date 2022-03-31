@@ -14,6 +14,12 @@ public extension String {
     }
 }
 
+extension String {
+    subscript(offset: Int) -> Character {
+        self[index(startIndex, offsetBy: offset)]
+    }
+}
+
 public extension String {
     static func dateFormattedAs(style: ExtendedHelper.DateFormatterStyles, for date: Date) -> String {
         let formatter = DateFormatter()

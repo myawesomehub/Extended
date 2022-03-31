@@ -8,5 +8,5 @@
 | -------------| ----------------------------------------------------------------- |
 | `Strings`    | `.randomString()` `.dateFormattedAs()` `GetCharacterByIndex`      |
 | `Color`      | `.randomColor()` `.hexColor()` `.assetColor()`                    |
-| `Optional`   | `.unwrapped()`                                                    |
+| `Optional`   | `.unwrapped { }`                                                  |
 | `Int`        | `.squared`                                                        |

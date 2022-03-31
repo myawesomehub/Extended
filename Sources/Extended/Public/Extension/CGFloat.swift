@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-extension CGFloat {
+public extension CGFloat {
     static var screenWidth: CGFloat { UIScreen.main.bounds.width }
 }
 
-extension CGFloat {
+public extension CGFloat {
     static var screenHeight: CGFloat { UIScreen.main.bounds.height }
 }

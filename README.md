@@ -10,3 +10,5 @@
 | `Color`      | `.randomColor()` `.hexColor()` `.assetColor()`                    |
 | `Optional`   | `.unwrapped { }`                                                  |
 | `Int`        | `.squared`                                                        |
+| `Calendar`   | `.isSameDay()`                                                    |
+

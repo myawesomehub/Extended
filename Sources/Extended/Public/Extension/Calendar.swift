@@ -9,7 +9,7 @@ import SwiftUI
 
 public extension Calendar {
     static func isSameDay(dayOne: Date, dayTwo: Date) -> Bool {
-        let order = Calendar.current.compare(this, to: with, toGranularity: .day)
+        let order = Calendar.current.compare(dayOne, to: dayTwo, toGranularity: .day)
         
         switch order {
         case .orderedAscending:

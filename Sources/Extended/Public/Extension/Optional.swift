@@ -8,9 +8,14 @@
 import SwiftUI
 
 public extension Optional {
-    func unwrapped(action: (Wrapped) -> Void) -> Void {
-        if let safeValue = self {
-            action(safeValue)
+    func unwrapped(
+        _ found: (Wrapped) -> Void,
+        noData whenNil: () -> Void
+    ) -> Void {
+        if let safeData = self {
+            found(safeData)
+        } else {
+            whenNil()
         }
     }
 }

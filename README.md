@@ -8,3 +8,5 @@
 | -------------| --------------------------------------------------- |
 | `Strings`    | `.randomString()` `.dateFormattedAs()`              |
 | `Color`      | `.randomColor()` `.hexColor()` `.assetColor()`      |
+| `Optional`   | `.safely`                                           |
+

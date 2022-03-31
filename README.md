@@ -11,4 +11,4 @@
 | `Optional`   | `.unwrapped { }`                                                  |
 | `Int`        | `.squared`                                                        |
 | `Calendar`   | `.isSameDay()`                                                    |
-
+| `CGFloat`    | `.screenWidth` `.screenHeight`                                    |

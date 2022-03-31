@@ -4,10 +4,9 @@
 
 # Features
 
-| Type         |  Extended Methods                                   |
-| -------------| --------------------------------------------------- |
-| `Strings`    | `.randomString()` `.dateFormattedAs()`              |
-| `Color`      | `.randomColor()` `.hexColor()` `.assetColor()`      |
-| `Optional`   | `.unwrapped()`                                      |
-| `Int`        | `.squared`                                          |
-
+| Type         |  Extended Methods                                                 |
+| -------------| ----------------------------------------------------------------- |
+| `Strings`    | `.randomString()` `.dateFormattedAs()` `GetCharacterByIndex`      |
+| `Color`      | `.randomColor()` `.hexColor()` `.assetColor()`                    |
+| `Optional`   | `.unwrapped()`                                                    |
+| `Int`        | `.squared`                                                        |

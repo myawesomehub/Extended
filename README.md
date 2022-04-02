@@ -7,7 +7,7 @@
 | Type         |  Extended Methods                                                 |
 | -------------| ----------------------------------------------------------------- |
 | `Strings`    | `.randomString()` `.dateFormattedAs()` `GetCharacterByIndex`      |
-| `Color`      | `.randomColor()` `.hexColor()` `.assetColor()`                    |
+| `Color`      | `.randomColor()` `.hexColor()` `.assetColor()` `.modeColor()`     |
 | `Optional`   | `.unwrapped { }`                                                  |
 | `Int`        | `.squared`                                                        |
 | `Calendar`   | `.isSameDay()`                                                    |

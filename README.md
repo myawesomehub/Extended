@@ -22,9 +22,9 @@ Fell free to contribute and add stuffs. Join our [slack](https://join.slack.com/
 | `Calendar`   | `.isSameDay()`                                                    |
 | `CGFloat`    | `.screenWidth` `.screenHeight`                                    |
 
-# Using it
+# Installation
 
-Install it as swift package 
+Install it as swift package in your project
 
 # Code Snippets
 

@@ -1,6 +1,6 @@
 # Extended
  
-Avoid writing those **fundametal utilities** every time for your applications. **Extended** provides those utilities **at once**.
+Avoid writing those **fundametal utilities** every time for your applications. **Extended** provides those utilities **at once**. Check the table below to understand it better.
 
 # Features
 

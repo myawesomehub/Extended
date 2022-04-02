@@ -1,10 +1,10 @@
 # Extended
  
-**Extended** provides those **fundamental** **utilities**, that a developer or designer needs in their almost every application. It can speed up your work with **swift, swiftUI and UIKit** while working on the project.
+Avoid writing those **fundametal utilities** every time for your applications. **Extended** provides those utilities **at once**.
 
 # Features
 
-| Type         |  Extended Methods                                                 |
+| Type         |  Extended Features                                                |
 | -------------| ----------------------------------------------------------------- |
 | `Strings`    | `.randomString()` `.dateFormattedAs()` `GetCharacterByIndex`      |
 | `Color`      | `.randomColor()` `.hexColor()` `.assetColor()` `.modeColor()`     |

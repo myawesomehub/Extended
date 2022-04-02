@@ -22,12 +22,16 @@ Fell free to contribute and add stuffs. Join our [slack](https://join.slack.com/
 | `Calendar`   | `.isSameDay()`                                                    |
 | `CGFloat`    | `.screenWidth` `.screenHeight`                                    |
 
-# How to use it
+# Using it
+
+Install it as swift package 
+
+# Code Snippets
 
 ```swift
 var name: String?
-name.unwrapped { name in
-    print("Found name is \(name)")
+name.unwrapped { safeName in
+    print("Found name is \(safeName)")
 } noData: {
     print("Found nil. Handle error")
 }

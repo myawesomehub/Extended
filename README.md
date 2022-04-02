@@ -21,3 +21,7 @@ Fell free to contribute and add stuffs. Join our [slack](https://join.slack.com/
 | `Int`        | `.squared`                                                        |
 | `Calendar`   | `.isSameDay()`                                                    |
 | `CGFloat`    | `.screenWidth` `.screenHeight`                                    |
+
+# License
+
+Extended is licensed under the [MIT License](https://github.com/App-Lobby/Extended/blob/main/LICENSE).

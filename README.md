@@ -1,6 +1,6 @@
 # Extended
  
-Avoid writing those **fundametal utilities** every time for your applications. **Extended** provides you those utilities **at once**. Check the table below to understand it better.
+Avoid writing those **fundamental utilities** every time for your applications. **Extended** provides you those utilities **at once**. Check the table below to understand it better.
 
 # Contributing
 
@@ -21,6 +21,22 @@ Fell free to contribute and add stuffs. Join our [slack](https://join.slack.com/
 | `Int`        | `.squared`                                                        |
 | `Calendar`   | `.isSameDay()`                                                    |
 | `CGFloat`    | `.screenWidth` `.screenHeight`                                    |
+
+# How to use it
+
+```swift
+var name: String?
+name.unwrapped { name in
+    print("Found name is \(name)")
+} noData: {
+    print("Found nil. Handle error")
+}
+
+print(String.randomWord())
+var data: [Data] = [
+    .init(text: .randomWord())
+]
+```
 
 # License
 

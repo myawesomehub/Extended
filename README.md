@@ -32,7 +32,10 @@ name.unwrapped { name in
     print("Found nil. Handle error")
 }
 
-print(String.randomWord())
+struct Data {
+    var text: String
+}
+
 var data: [Data] = [
     .init(text: .randomWord())
 ]

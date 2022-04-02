@@ -21,6 +21,19 @@ public extension Color {
 }
 
 public extension Color {
+    static func modeColor(light: Color, dark: Color, scheme: ColorScheme) -> Color {
+        switch scheme {
+        case .light:
+            return light
+        case .dark:
+            return dark
+        default:
+            return .clear
+        }
+    }
+}
+
+public extension Color {
     static func hexValue(_ hex: String) -> Color {
         let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
         var int: UInt64 = 0

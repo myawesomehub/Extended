@@ -15,7 +15,7 @@ Feel free to contribute and add stuffs. Join our [slack](https://join.slack.com/
 
 | Type         |  Extended Features                                                |
 | -------------| ----------------------------------------------------------------- |
-| `CLLocation` | `.getCoordinateByLocation()`                                      |
+| `CLLocation` | `.getCoordinateByLocation()` `.getLocationByCoordinate()`         |
 | `Strings`    | `.randomString()` `.dateFormattedAs()` `GetCharacterByIndex`      |
 | `Color`      | `.randomColor()` `.hexColor()` `.assetColor()` `.modeColor()`     |
 | `Optional`   | `.unwrapped { }`                                                  |

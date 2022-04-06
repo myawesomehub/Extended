@@ -35,3 +35,23 @@ public extension CLLocation {
         }
     }
 }
+
+public extension CLLocation {
+    static func getLocationByCoordinate(
+        location: CLLocation,
+        completion: @escaping (CLPlacemark?, Error?) -> Void )
+    -> Void {
+        let geocoder = CLGeocoder()
+        geocoder.reverseGeocodeLocation(location) { placemark, error in
+            
+            guard error == nil else {
+                completion(nil, error)
+                return
+            }
+            
+            if let placemark = placemark {
+                completion(placemark.first, nil)
+            }
+        }
+    }
+}

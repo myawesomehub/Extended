@@ -9,7 +9,7 @@ import SwiftUI
 import CoreLocation
 
 public extension CLLocation {
-    static func getCoordinateFor(
+    static func getCoordinateByLocation(
         place name: String,
         completion: @escaping (CLLocation?, Error?) -> Void
     ) -> Void {

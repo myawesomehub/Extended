@@ -38,6 +38,8 @@ name.unwrapped { safeName in
     print("Found nil. Handle error")
 }
 
+ImageURLView(urlString: "https://images.unsplash.com/5/unsplash-kitsune-4.jpg?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjEyMDd9&s=ce40ce8b8ba365e5e6d06401e5485390")
+
 struct Data {
     var text: String
 }

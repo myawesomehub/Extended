@@ -7,7 +7,6 @@ Avoid writing those **fundamental utilities** every time for your app. **Extende
 | Type         |  Extended Features                                                |
 | -------------| ----------------------------------------------------------------- |
 | `CLLocation` | `.getCoordinateByLocation()` `.getLocationByCoordinate()`         |
-| `View`       | `ImageURLView()`                                                  |
 | `Strings`    | `.randomString()` `.dateFormattedAs()` `GetCharacterByIndex`      |
 | `Color`      | `.randomColor()` `.hexColor()` `.assetColor()` `.modeColor()`     |
 | `Optional`   | `.unwrapped { }`                                                  |

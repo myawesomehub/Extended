@@ -1,8 +1,8 @@
-# Extended
+## Extended
  
 Avoid writing those **fundamental utilities** every time for your app. **Extended** provides you those utilities **at once**. Check the table below to understand it better.
 
-# Features
+## Features
 
 | Type         |  Extended Features                                                |
 | -------------| ----------------------------------------------------------------- |
@@ -15,7 +15,14 @@ Avoid writing those **fundamental utilities** every time for your app. **Extende
 | `Calendar`   | `.isSameDay()`                                                    |
 | `CGFloat`    | `.screenWidth` `.screenHeight`                                    |
 
-# Contributing
+## Todo's
+
+- [x] A method to translate coordinates into a readable string address and vise versa
+- [x] An image view to load images from URL
+- [ ] An extension to find special characters in string
+- [ ] An extension to validate the email formate
+
+## Contributing
 
 Feel free to contribute and add stuffs. Join our [discord](https://discord.gg/5cd3nbgn) server to discuss anything.
 
@@ -24,11 +31,11 @@ Feel free to contribute and add stuffs. Join our [discord](https://discord.gg/5c
 - Add some code
 - Create a pull request
 
-# Installation
+## Installation
 
 Install it as swift package in your project
 
-# Code Snippets
+## Code Snippets
 
 ```swift
 var name: String?
@@ -49,6 +56,6 @@ var data: [Data] = [
 ]
 ```
 
-# License
+## License
 
 Extended is licensed under the [MIT License](https://github.com/App-Lobby/Extended/blob/main/LICENSE).

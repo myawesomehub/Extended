@@ -17,7 +17,7 @@ Avoid writing those **fundamental utilities** every time for your app. **Extende
 
 # Contributing
 
-Feel free to contribute and add stuffs. Join our [discord](https://discord.gg/5cd3nbgn) room to discuss anything.
+Feel free to contribute and add stuffs. Join our [discord](https://discord.gg/5cd3nbgn) server to discuss anything.
 
 - Fork the repo
 - Clone the forked repo

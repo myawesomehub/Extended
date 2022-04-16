@@ -17,7 +17,7 @@ Avoid writing those **fundamental utilities** every time for your app. **Extende
 
 # Contributing
 
-Feel free to contribute and add stuffs. Join our [slack](https://join.slack.com/t/applobby/shared_invite/zt-13j99v4mc-P4RLL8ClueMu4XT8JijiLw) room to discuss anything.
+Feel free to contribute and add stuffs. Join our [discord](https://discord.gg/5cd3nbgn) room to discuss anything.
 
 - Fork the repo
 - Clone the forked repo

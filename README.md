@@ -17,10 +17,7 @@ Avoid writing those **fundamental utilities** every time for your app. **Extende
 
 ## Todo's
 
-- [x] A method to translate coordinates into a readable string address and vise versa
-- [x] An image view to load images from URL
-- [ ] An extension to find special characters in string
-- [ ] An extension to validate the email formate
+Visit issues section
 
 ## Contributing
 

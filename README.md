@@ -21,7 +21,7 @@ Visit issues section
 
 ## Contributing
 
-Feel free to contribute and add stuffs. Join our [discord](https://discord.gg/5cd3nbgn) server to discuss anything.
+Feel free to contribute and add stuffs.
 
 - Fork the repo
 - Clone the forked repo

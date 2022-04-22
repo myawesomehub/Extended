@@ -25,6 +25,7 @@ Feel free to contribute and add stuffs.
 
 - Fork the repo
 - Clone the forked repo
+- Create a new branch
 - Add some code
 - Create a pull request
 

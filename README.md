@@ -29,6 +29,10 @@ Feel free to contribute and add stuffs.
 - Add some code
 - Create a pull request
 
+## Contributors
+
+<img src="https://contrib.rocks/image?repo=myawesomehub/Extended" width=70/>
+
 ## Installation
 
 Install it as swift package in your project

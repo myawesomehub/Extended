@@ -1,6 +1,13 @@
 ## Extended
  
-Avoid writing those **fundamental utilities** every time for your app. **Extended** provides you those utilities **at once**. Check the table below to understand it better.
+Avoid writing those **fundamental utilities** every time for your app. **Extended** provides you the collection of those utilities **at once**.
+
+## How to use it?
+
+Two ways to use it
+
+- You can copy the requared `extension` code block from the `source` file directly into your project
+- You can import this `swift package` in your project and use all the extended features mentioned below in the table
 
 ## Features
 

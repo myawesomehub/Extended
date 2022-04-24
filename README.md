@@ -4,16 +4,16 @@ Avoid writing those **fundamental utilities** every time for your app. **Extende
 
 ## Features
 
-| Type         |  Extended Features                                                |
-| -------------| ----------------------------------------------------------------- |
-| `CLLocation` | `.getCoordinateByLocation()` `.getLocationByCoordinate()`         |
-| `View`       | `ImageURLView()`                                                  |
-| `Strings`    | `.randomString()` `.dateFormattedAs()` `GetCharacterByIndex`      |
-| `Color`      | `.randomColor()` `.hexColor()` `.assetColor()` `.modeColor()`     |
-| `Optional`   | `.unwrapped { }`                                                  |
-| `Int`        | `.squared`                                                        |
-| `Calendar`   | `.isSameDay()`                                                    |
-| `CGFloat`    | `.screenWidth` `.screenHeight`                                    |
+| Type         |  Extended Features                                                                 |
+| -------------| ---------------------------------------------------------------------------------- |
+| `CLLocation` | `.getCoordinateByLocation()` `.getLocationByCoordinate()`                          |
+| `View`       | `ImageURLView()`                                                                   |
+| `Strings`    | `.randomString()` `.dateFormattedAs()` `GetCharacterByIndex` `.isValidEmail()`     |
+| `Color`      | `.randomColor()` `.hexColor()` `.assetColor()` `.modeColor()`                      |
+| `Optional`   | `.unwrapped { }`                                                                   |
+| `Int`        | `.squared`                                                                         |
+| `Calendar`   | `.isSameDay()`                                                                     |
+| `CGFloat`    | `.screenWidth` `.screenHeight`                                                     |
 
 ## Todo's
 

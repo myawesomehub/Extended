@@ -2,6 +2,8 @@
  
 Avoid writing those **fundamental utilities** every time for your app. **Extended** provides you the collection of those utilities **at once**.
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/mohdYasir03)
+
 ## How to use it?
 
 Two ways to use it

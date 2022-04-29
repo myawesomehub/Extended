@@ -9,7 +9,7 @@
 
 ## What is Extended?
  
-Avoid writing those **fundamental utilities** every time for your app. **Extended** provides you the collection of those utilities **at once**.
+Avoid writing those **fundamental utilities** every time for your app. **Extended** provides you the collection of those utilities **at once**. It gives you a collection of `extension` for types like `String`, `Int`, `CLLocation` and many more. Look at these all extension features [here](#features).
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/mohdYasir03)
 

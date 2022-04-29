@@ -19,8 +19,8 @@ Avoid writing those **fundamental utilities** every time for your app. **Extende
 
 Two ways to use it
 
-- You can copy the requared `extension` code block from the `source` file directly into your project
-- You can import this `swift package` in your project and use all the extended features mentioned below in the table
+- You can copy the requared `extension` code block from the `source` file directly into your project.
+- You can import this `swift package` in your project and use all the extended features mentioned below in the table.
 
 ## Features
 

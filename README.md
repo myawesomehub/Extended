@@ -26,7 +26,8 @@ Two ways to use it
 
 ## Todo's
 
-Visit issues section
+- Raise a pull request for any `extension` you wish to add, or
+- Visit issues section
 
 ## Contributing
 

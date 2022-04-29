@@ -1,4 +1,10 @@
-## Extended
+<p align="center">
+  <img 
+    src="https://github.com/myawesomehub/Extended/blob/main/Logo/logo.png"
+  >
+</p>
+
+## What is Extended?
  
 Avoid writing those **fundamental utilities** every time for your app. **Extended** provides you the collection of those utilities **at once**.
 

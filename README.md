@@ -13,16 +13,16 @@ Two ways to use it
 
 ## Features
 
-| Type         |  Extended Features                                                                 |
-| -------------| ---------------------------------------------------------------------------------- |
-| `CLLocation` | `.getCoordinateByLocation()` `.getLocationByCoordinate()`                          |
-| `View`       | `ImageURLView()`                                                                   |
-| `Strings`    | `.randomString()` `.dateFormattedAs()` `GetCharacterByIndex` `.isValidEmail()`     |
-| `Color`      | `.randomColor()` `.hexColor()` `.assetColor()` `.modeColor()`                      |
-| `Optional`   | `.unwrapped { }`                                                                   |
-| `Int`        | `.squared`                                                                         |
-| `Calendar`   | `.isSameDay()`                                                                     |
-| `CGFloat`    | `.screenWidth` `.screenHeight`                                                     |
+| Type         |  Extended Features                                                                                    |
+| -------------| ----------------------------------------------------------------------------------------------------- |
+| `CLLocation` | `.getCoordinateByLocation()` `.getLocationByCoordinate()`                                             |
+| `View`       | `ImageURLView()`                                                                                      |
+| `Strings`    | `.randomString()` `.dateFormattedAs()` `GetCharacterByIndex` `.isValidEmail()` `.getRandomEmail()`    |
+| `Color`      | `.randomColor()` `.hexColor()` `.assetColor()` `.modeColor()`                                         |
+| `Optional`   | `.unwrapped { }`                                                                                      |
+| `Int`        | `.squared`                                                                                            |
+| `Calendar`   | `.isSameDay()`                                                                                        |
+| `CGFloat`    | `.screenWidth` `.screenHeight`                                                                        |
 
 ## Todo's
 

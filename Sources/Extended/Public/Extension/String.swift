@@ -77,3 +77,15 @@ public extension String {
         return emailTest.evaluate(with: self)
     }
 }
+
+
+public extension String {
+    static func getRandomEmail() -> String {
+        let domainProviders = ["abc.com", "xyz.com", "gmail.com", "yahoo.com", "hotmail.com", "icloud.com", "live.com"]
+        let randomProvider = domainProviders.randomElement() ?? "random.com"
+        
+        let username: String = .randomWord()
+        
+        return "\(username)@\(randomProvider)"
+    }
+}

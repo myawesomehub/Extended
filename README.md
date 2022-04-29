@@ -1,7 +1,10 @@
 <p align="center">
-  <img 
-    src="https://github.com/myawesomehub/Extended/blob/main/Logo/logo.png"
-  >
+  <img src="https://github.com/myawesomehub/Extended/blob/main/Logo/logo.png"> <br />
+  <img src="https://img.shields.io/badge/platform-iOS-green" >
+  <img src="https://img.shields.io/badge/language-swift-orange" >
+  <img src="https://img.shields.io/badge/issues-open-yellow" >
+  <img src="https://img.shields.io/badge/discussion-open-blue" >
+  <img src="https://img.shields.io/badge/production-live-red" >
 </p>
 
 ## What is Extended?

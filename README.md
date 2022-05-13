@@ -52,8 +52,8 @@ Feel free to contribute and add stuffs.
 
 ## Contributors
 
-<img src="https://contrib.rocks/image?repo=myawesomehub/Extended" width=70/>
-
+<!-- <img src="https://contrib.rocks/image?repo=myawesomehub/Extended" width=70/> -->
+<img src="https://contrib.rocks/image?repo=myawesomehub/extended" width=70 />
 ## Installation
 
 Install it as swift package in your project
